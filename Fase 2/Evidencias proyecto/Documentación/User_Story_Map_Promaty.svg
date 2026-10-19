@@ -1,0 +1,260 @@
+<svg width="1400" viewBox="0 0 1400 720" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>User Story Map — Promaty</title>
+<desc>Mapa de historias de usuario de Promaty organizado cronológicamente por actividad de usuario y sprint. Actividades: Acceder y configurar, Gestionar proyectos y CC, Registrar colaboradores, Tramitar contratos, Aprobar solicitudes, Controlar ciclo laboral, Asistencia y remuneraciones.</desc>
+
+<rect width="1400" height="720" fill="#ffffff"/>
+
+<defs>
+  <style>
+    text { font-family: Calibri, Arial, sans-serif; }
+    .act  { font-size: 11px; font-weight: 700; fill: #633806; }
+    .task { font-size: 9px;  font-weight: 600; fill: #0C447C; }
+    .sd   { font-size: 9px;  fill: #085041; }
+    .sp   { font-size: 9px;  fill: #5C3D00; }
+    .lbl  { font-size: 10px; font-weight: 700; fill: #2d2d2a; }
+    .sub  { font-size: 9px;  fill: #555; }
+    .leg  { font-size: 10px; fill: #3d3d3a; }
+  </style>
+</defs>
+
+<!-- ── BAND BACKGROUNDS ── -->
+<rect x="0" y="132" width="1400" height="118" fill="#F5FBF8"/>
+<rect x="0" y="254" width="1400" height="118" fill="#F3F7FE"/>
+<rect x="0" y="376" width="1400" height="118" fill="#F5F3FE"/>
+<rect x="0" y="498" width="1400" height="152" fill="#FDFAF4"/>
+
+<!-- ── LEFT LABEL BACKGROUNDS (per band) ── -->
+<rect x="0" y="132" width="90" height="118" fill="#C8EAD8"/>
+<rect x="0" y="254" width="90" height="118" fill="#C5D9F8"/>
+<rect x="0" y="376" width="90" height="118" fill="#D8D4F8"/>
+<rect x="0" y="498" width="90" height="152" fill="#F2DFA8"/>
+
+<!-- ── COLUMN VERTICAL SEPARATORS ── -->
+<line x1="90"   y1="40" x2="90"   y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="274"  y1="40" x2="274"  y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="458"  y1="40" x2="458"  y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="642"  y1="40" x2="642"  y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="826"  y1="40" x2="826"  y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="1010" y1="40" x2="1010" y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="1194" y1="40" x2="1194" y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+<line x1="1377" y1="40" x2="1377" y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+
+<!-- ── BAND SEPARATOR LINES ── -->
+<line x1="0" y1="132" x2="1400" y2="132" stroke="#888780" stroke-width="1.2"/>
+<line x1="0" y1="254" x2="1400" y2="254" stroke="#888780" stroke-width="0.7" stroke-dasharray="5 3"/>
+<line x1="0" y1="376" x2="1400" y2="376" stroke="#888780" stroke-width="0.7" stroke-dasharray="5 3"/>
+<line x1="0" y1="498" x2="1400" y2="498" stroke="#888780" stroke-width="0.7" stroke-dasharray="5 3"/>
+<line x1="0" y1="658" x2="1400" y2="658" stroke="#C8C8C5" stroke-width="0.5"/>
+
+<!-- ── HEADER SEPARATOR ── -->
+<line x1="90" y1="128" x2="1377" y2="128" stroke="#888780" stroke-width="1.5"/>
+
+<!-- ── TITLE BADGE ── -->
+<rect x="10" y="8" width="254" height="28" rx="14" fill="#FAC775"/>
+<text x="137" y="22" text-anchor="middle" dominant-baseline="central" font-family="Calibri, Arial, sans-serif" font-size="13" font-weight="700" fill="#633806">User Story Map — Promaty</text>
+
+<!-- ══ ACTIVITIES ROW (y=40, h=44) ══ -->
+<!-- Col widths: 183px; gaps of 1px between cols -->
+<!-- C0 [90..272] -->
+<rect x="92"  y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="182" y="60" text-anchor="middle" dominant-baseline="central">Acceder y configurar</text>
+
+<!-- C1 [274..456] -->
+<rect x="276" y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="366" y="54" text-anchor="middle" dominant-baseline="central">Gestionar</text>
+<text class="act" x="366" y="70" text-anchor="middle" dominant-baseline="central">proyectos y CC</text>
+
+<!-- C2 [458..640] -->
+<rect x="460" y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="550" y="54" text-anchor="middle" dominant-baseline="central">Registrar</text>
+<text class="act" x="550" y="70" text-anchor="middle" dominant-baseline="central">colaboradores</text>
+
+<!-- C3 [642..824] -->
+<rect x="644" y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="734" y="54" text-anchor="middle" dominant-baseline="central">Tramitar</text>
+<text class="act" x="734" y="70" text-anchor="middle" dominant-baseline="central">contratos</text>
+
+<!-- C4 [826..1008] -->
+<rect x="828" y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="918" y="54" text-anchor="middle" dominant-baseline="central">Aprobar</text>
+<text class="act" x="918" y="70" text-anchor="middle" dominant-baseline="central">solicitudes</text>
+
+<!-- C5 [1010..1192] -->
+<rect x="1012" y="40" width="180" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="1102" y="54" text-anchor="middle" dominant-baseline="central">Controlar ciclo</text>
+<text class="act" x="1102" y="70" text-anchor="middle" dominant-baseline="central">laboral</text>
+
+<!-- C6 [1194..1375] -->
+<rect x="1196" y="40" width="179" height="44" rx="4" fill="#FAC775" stroke="#D4831A" stroke-width="0.8"/>
+<text class="act" x="1285" y="54" text-anchor="middle" dominant-baseline="central">Asistencia y</text>
+<text class="act" x="1285" y="70" text-anchor="middle" dominant-baseline="central">remuneraciones</text>
+
+<!-- ══ TASKS ROW (y=88, h=36) — 2 tasks por columna ══ -->
+<!-- C0 -->
+<rect x="93"  y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="136" y="104" text-anchor="middle" dominant-baseline="central">Iniciar sesión</text>
+<rect x="183" y="90" width="88" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="227" y="104" text-anchor="middle" dominant-baseline="central">Roles y usuarios</text>
+
+<!-- C1 -->
+<rect x="277" y="90" width="85" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="319" y="104" text-anchor="middle" dominant-baseline="central">Proyecto / CC</text>
+<rect x="365" y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="408" y="104" text-anchor="middle" dominant-baseline="central">Mantenedores</text>
+
+<!-- C2 -->
+<rect x="461" y="90" width="86" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="504" y="104" text-anchor="middle" dominant-baseline="central">Registrar ficha</text>
+<rect x="550" y="90" width="86" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="593" y="104" text-anchor="middle" dominant-baseline="central">Ver estado</text>
+
+<!-- C3 -->
+<rect x="645" y="90" width="85" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="687" y="104" text-anchor="middle" dominant-baseline="central">Crear solicitud</text>
+<rect x="733" y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="776" y="104" text-anchor="middle" dominant-baseline="central">Ver contratos</text>
+
+<!-- C4 -->
+<rect x="829" y="90" width="85" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="871" y="104" text-anchor="middle" dominant-baseline="central">Aprobar</text>
+<rect x="917" y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="960" y="104" text-anchor="middle" dominant-baseline="central">Rechazar</text>
+
+<!-- C5 -->
+<rect x="1013" y="90" width="85" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="1055" y="104" text-anchor="middle" dominant-baseline="central">Bloquear/Desbl.</text>
+<rect x="1101" y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="1144" y="104" text-anchor="middle" dominant-baseline="central">Finiquitar</text>
+
+<!-- C6 -->
+<rect x="1197" y="90" width="85" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="1239" y="104" text-anchor="middle" dominant-baseline="central">Asistencia</text>
+<rect x="1285" y="90" width="87" height="28" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="task" x="1328" y="104" text-anchor="middle" dominant-baseline="central">Remuneraciones</text>
+
+<!-- ══ LEFT LABELS ══ -->
+<!-- Sprint 1-2 (y=132, h=118) center=191 -->
+<text class="lbl" x="45" y="176" text-anchor="middle">Sprint</text>
+<text class="lbl" x="45" y="192" text-anchor="middle">1 – 2</text>
+<text class="sub" x="45" y="208" text-anchor="middle">Fundación</text>
+
+<!-- Sprint 3 (y=254, h=118) center=313 -->
+<text class="lbl" x="45" y="298" text-anchor="middle">Sprint 3</text>
+<text class="sub" x="45" y="314" text-anchor="middle">Colaboradores</text>
+<text class="sub" x="45" y="328" text-anchor="middle">y solicitudes</text>
+
+<!-- Sprint 4 (y=376, h=118) center=435 -->
+<text class="lbl" x="45" y="420" text-anchor="middle">Sprint 4</text>
+<text class="sub" x="45" y="436" text-anchor="middle">Estado laboral</text>
+
+<!-- Pendiente (y=498, h=152) center=574 -->
+<text class="lbl" x="45" y="564" text-anchor="middle">Pendiente</text>
+<text class="sub" x="45" y="580" text-anchor="middle">por construir</text>
+
+<!-- ══ SPRINT 1-2 STORIES (y=132, h=118) — done: fill=#E1F5EE stroke=#0F6E56 ══ -->
+<!-- s1: y=140, s2: y=172, s3: y=204 -->
+
+<!-- C0: Autenticación JWT | Gestión de roles | CRUD de usuarios -->
+<rect x="93"  y="140" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="182" y="154" text-anchor="middle" dominant-baseline="central">Autenticación JWT</text>
+<rect x="93"  y="172" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="182" y="186" text-anchor="middle" dominant-baseline="central">Gestión de roles y permisos</text>
+<rect x="93"  y="204" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="182" y="218" text-anchor="middle" dominant-baseline="central">CRUD de usuarios</text>
+
+<!-- C1: Registrar proyecto/CC | Mantenedores simples | Estado descriptivo por módulo -->
+<rect x="277" y="140" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="366" y="154" text-anchor="middle" dominant-baseline="central">Registrar proyecto / CC</text>
+<rect x="277" y="172" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="366" y="186" text-anchor="middle" dominant-baseline="central">Mantenedores simples</text>
+<rect x="277" y="204" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="366" y="218" text-anchor="middle" dominant-baseline="central">Estado descriptivo por módulo</text>
+
+<!-- C2–C6: empty in Sprint 1-2 -->
+
+<!-- ══ SPRINT 3 STORIES (y=254, h=118) ══ -->
+<!-- s1: y=262, s2: y=294, s3: y=326 -->
+
+<!-- C0: empty -->
+
+<!-- C1: empty -->
+
+<!-- C2: Registrar ficha del colaborador | Estado laboral del colaborador -->
+<rect x="461" y="262" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="550" y="276" text-anchor="middle" dominant-baseline="central">Registrar ficha del colaborador</text>
+<rect x="461" y="294" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="550" y="308" text-anchor="middle" dominant-baseline="central">Estado laboral del colaborador</text>
+
+<!-- C3: Crear solicitud de contrato | Consultar solicitudes y contratos -->
+<rect x="645" y="262" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="734" y="276" text-anchor="middle" dominant-baseline="central">Crear solicitud de contrato</text>
+<rect x="645" y="294" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="734" y="308" text-anchor="middle" dominant-baseline="central">Consultar solicitudes y contratos</text>
+
+<!-- C4: Aprobar solicitud (Jefatura) | Validar solicitud (RRHH) -->
+<rect x="829" y="262" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="918" y="276" text-anchor="middle" dominant-baseline="central">Aprobar solicitud (Jefatura)</text>
+<rect x="829" y="294" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="918" y="308" text-anchor="middle" dominant-baseline="central">Validar solicitud (RRHH)</text>
+
+<!-- C5: Activación del colaborador -->
+<rect x="1013" y="262" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="1102" y="276" text-anchor="middle" dominant-baseline="central">Activación del colaborador</text>
+
+<!-- C6: empty -->
+
+<!-- ══ SPRINT 4 STORIES (y=376, h=118) ══ -->
+<!-- s1: y=384, s2: y=416, s3: y=448 -->
+
+<!-- C0: Menú filtrado por rol -->
+<rect x="93"  y="384" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="182" y="398" text-anchor="middle" dominant-baseline="central">Menú filtrado por rol</text>
+
+<!-- C1: empty -->
+<!-- C2: empty -->
+<!-- C3: empty -->
+
+<!-- C4: Rechazar con motivo catalogado -->
+<rect x="829" y="384" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="918" y="398" text-anchor="middle" dominant-baseline="central">Rechazar con motivo catalogado</text>
+
+<!-- C5: Bloquear colaborador con motivo | Desbloquear colaborador -->
+<rect x="1013" y="384" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="1102" y="398" text-anchor="middle" dominant-baseline="central">Bloquear colaborador con motivo</text>
+<rect x="1013" y="416" width="179" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="sd" x="1102" y="430" text-anchor="middle" dominant-baseline="central">Desbloquear colaborador</text>
+
+<!-- C6: empty -->
+
+<!-- ══ PENDIENTE STORIES (y=498, h=152) — pending: fill=#FAEEDA stroke=#B8860B ══ -->
+<!-- s1: y=506, s2: y=538, s3: y=570, s4: y=602 -->
+
+<!-- C0–C4: empty -->
+
+<!-- C5: Finiquito de colaborador | Anexo de contrato -->
+<rect x="1013" y="506" width="179" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1102" y="520" text-anchor="middle" dominant-baseline="central">Finiquito de colaborador</text>
+<rect x="1013" y="538" width="179" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1102" y="552" text-anchor="middle" dominant-baseline="central">Anexo de contrato</text>
+
+<!-- C6: Grilla de asistencia | Permisos y vacaciones | Liquidaciones Rex+ | Anticipos y sueldos -->
+<rect x="1197" y="506" width="178" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1286" y="520" text-anchor="middle" dominant-baseline="central">Grilla de asistencia mensual</text>
+<rect x="1197" y="538" width="178" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1286" y="552" text-anchor="middle" dominant-baseline="central">Permisos y vacaciones</text>
+<rect x="1197" y="570" width="178" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1286" y="584" text-anchor="middle" dominant-baseline="central">Liquidaciones Rex+ (lectura)</text>
+<rect x="1197" y="602" width="178" height="28" rx="3" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="sp" x="1286" y="616" text-anchor="middle" dominant-baseline="central">Anticipos y sueldos</text>
+
+<!-- ══ LEGEND ══ -->
+<rect x="92"  y="668" width="14" height="14" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text class="leg" x="113" y="675" dominant-baseline="central">Historia entregada</text>
+<rect x="290" y="668" width="14" height="14" rx="2" fill="#FAEEDA" stroke="#B8860B" stroke-width="0.7"/>
+<text class="leg" x="311" y="675" dominant-baseline="central">Historia pendiente</text>
+<rect x="478" y="668" width="14" height="14" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.7"/>
+<text class="leg" x="499" y="675" dominant-baseline="central">Tarea de usuario</text>
+<rect x="660" y="668" width="14" height="14" rx="2" fill="#FAC775" stroke="#D4831A" stroke-width="0.7"/>
+<text class="leg" x="681" y="675" dominant-baseline="central">Actividad de usuario (backbone)</text>
+
+</svg>

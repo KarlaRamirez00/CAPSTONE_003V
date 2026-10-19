@@ -1,0 +1,162 @@
+<svg width="800" viewBox="0 0 680 630" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Mapa Mental — Promaty</title>
+<desc>Mapa mental de Promaty: 6 ramas. Módulos implementados: Colaboradores, Contratos/Anexos, Solicitudes/Aprobaciones, Proyectos/CC, Permisos/RBAC. Flujo de aprobación con camino de rechazo con motivo. Roles de negocio de ejemplo (RBAC configurable).</desc>
+
+<rect width="680" height="630" fill="#ffffff"/>
+
+<defs>
+  <style>
+    text { font-family: Calibri, Arial, sans-serif; }
+    .th  { font-size: 14px; font-weight: 600; }
+    .ts  { font-size: 12px; }
+    .tn  { font-size: 9px; font-style: italic; }
+  </style>
+</defs>
+
+<!-- ══ RAMAS PRINCIPALES ══ -->
+<path d="M380 310 Q470 310 500 200" fill="none" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M380 320 Q460 360 510 420" fill="none" stroke="#185FA5" stroke-width="1.5"/>
+<path d="M345 352 Q340 400 340 460" fill="none" stroke="#534AB7" stroke-width="1.5"/>
+<path d="M300 330 Q250 380 200 440" fill="none" stroke="#993C1D" stroke-width="1.5"/>
+<path d="M300 310 Q230 310 190 240" fill="none" stroke="#3B6D11" stroke-width="1.5"/>
+<path d="M340 268 Q340 210 340 158" fill="none" stroke="#854F0B" stroke-width="1.5"/>
+
+<!-- ══ MÓDULOS (teal) — 5 módulos reales implementados ══ -->
+<path d="M500 200 Q540 170 560 150" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M500 200 Q545 195 570 190" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M500 200 Q545 218 570 230" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M500 200 Q540 235 555 260" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M500 200 Q530 258 540 285" fill="none" stroke="#0F6E56" stroke-width="1"/>
+
+<ellipse cx="500" cy="200" rx="58" ry="22" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text class="th" x="500" y="200" text-anchor="middle" dominant-baseline="central" fill="#085041">Módulos</text>
+
+<rect x="543" y="138" width="114" height="26" rx="13" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="ts" x="600" y="151" text-anchor="middle" dominant-baseline="central" fill="#085041">Colaboradores</text>
+
+<rect x="546" y="178" width="118" height="26" rx="13" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="ts" x="605" y="191" text-anchor="middle" dominant-baseline="central" fill="#085041">Contratos / Anexos</text>
+
+<rect x="546" y="218" width="122" height="26" rx="13" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="ts" x="607" y="231" text-anchor="middle" dominant-baseline="central" fill="#085041">Solicitudes / Aprob.</text>
+
+<rect x="530" y="248" width="104" height="26" rx="13" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="ts" x="582" y="261" text-anchor="middle" dominant-baseline="central" fill="#085041">Proyectos / CC</text>
+
+<rect x="518" y="274" width="112" height="26" rx="13" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="ts" x="574" y="287" text-anchor="middle" dominant-baseline="central" fill="#085041">Permisos / RBAC</text>
+
+<!-- ══ STACK TECH (blue) ══ -->
+<path d="M510 420 Q550 400 580 385" fill="none" stroke="#185FA5" stroke-width="1"/>
+<path d="M510 420 Q555 420 580 415" fill="none" stroke="#185FA5" stroke-width="1"/>
+<path d="M510 420 Q550 440 575 450" fill="none" stroke="#185FA5" stroke-width="1"/>
+
+<ellipse cx="510" cy="420" rx="62" ry="22" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text class="th" x="510" y="420" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Stack tech</text>
+
+<rect x="556" y="373" width="102" height="26" rx="13" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="ts" x="607" y="386" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Vue 3 + TypeScript</text>
+<rect x="556" y="403" width="102" height="26" rx="13" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="ts" x="607" y="416" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Java + Spring Boot</text>
+<rect x="548" y="438" width="102" height="26" rx="13" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="ts" x="599" y="451" text-anchor="middle" dominant-baseline="central" fill="#0C447C">PostgreSQL</text>
+
+<!-- ══ ARQUITECTURA (purple) ══ -->
+<path d="M340 460 Q300 488 270 500" fill="none" stroke="#534AB7" stroke-width="1"/>
+<path d="M340 460 Q340 492 340 508" fill="none" stroke="#534AB7" stroke-width="1"/>
+<path d="M340 460 Q378 488 408 500" fill="none" stroke="#534AB7" stroke-width="1"/>
+
+<ellipse cx="340" cy="460" rx="64" ry="22" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text class="th" x="340" y="460" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Arquitectura</text>
+
+<rect x="172" y="489" width="96" height="26" rx="13" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="ts" x="220" y="502" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Ports &amp; Adapters</text>
+
+<rect x="296" y="497" width="90" height="26" rx="13" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="ts" x="341" y="510" text-anchor="middle" dominant-baseline="central" fill="#3C3489">RBAC</text>
+
+<!-- Rex+ stub: 2 líneas para aclarar que no hay integración real de red -->
+<rect x="396" y="486" width="114" height="36" rx="13" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="ts" x="453" y="498" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Rex+ (stub)</text>
+<text class="tn" x="453" y="512" text-anchor="middle" dominant-baseline="central" fill="#534AB7">sin llamada de red</text>
+
+<!-- ══ FUERA DE ALCANCE (coral) ══ -->
+<path d="M200 440 Q165 438 135 435" fill="none" stroke="#993C1D" stroke-width="1"/>
+<path d="M200 440 Q165 455 135 460" fill="none" stroke="#993C1D" stroke-width="1"/>
+<path d="M200 440 Q160 480 140 495" fill="none" stroke="#993C1D" stroke-width="1"/>
+
+<ellipse cx="200" cy="440" rx="66" ry="22" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text class="th" x="200" y="440" text-anchor="middle" dominant-baseline="central" fill="#712B13">Fuera de alcance</text>
+
+<rect x="26" y="424" width="106" height="26" rx="13" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text class="ts" x="79" y="437" text-anchor="middle" dominant-baseline="central" fill="#712B13">Reclutamiento</text>
+<rect x="22" y="449" width="110" height="26" rx="13" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text class="ts" x="77" y="462" text-anchor="middle" dominant-baseline="central" fill="#712B13">Lic. médicas</text>
+<rect x="26" y="484" width="110" height="26" rx="13" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text class="ts" x="81" y="497" text-anchor="middle" dominant-baseline="central" fill="#712B13">Gest. avanzada proy.</text>
+
+<!-- ══ ROLES (green) — roles de negocio de ejemplo; RBAC configurable ══ -->
+<path d="M190 240 Q150 213 116 193" fill="none" stroke="#3B6D11" stroke-width="1"/>
+<path d="M190 240 Q150 228 116 218" fill="none" stroke="#3B6D11" stroke-width="1"/>
+<path d="M190 240 Q150 244 116 244" fill="none" stroke="#3B6D11" stroke-width="1"/>
+<path d="M190 240 Q150 260 116 268" fill="none" stroke="#3B6D11" stroke-width="1"/>
+
+<ellipse cx="190" cy="240" rx="58" ry="22" fill="#EAF3DE" stroke="#3B6D11" stroke-width="1"/>
+<text class="th" x="190" y="240" text-anchor="middle" dominant-baseline="central" fill="#27500A">Roles</text>
+
+<rect x="8" y="182" width="106" height="24" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="ts" x="61" y="194" text-anchor="middle" dominant-baseline="central" fill="#27500A">Superadmin</text>
+
+<rect x="6" y="207" width="108" height="24" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="ts" x="60" y="219" text-anchor="middle" dominant-baseline="central" fill="#27500A">Jefatura de Obra</text>
+
+<rect x="6" y="232" width="108" height="24" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="ts" x="60" y="244" text-anchor="middle" dominant-baseline="central" fill="#27500A">Encargado RRHH</text>
+
+<rect x="6" y="257" width="108" height="24" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="ts" x="60" y="269" text-anchor="middle" dominant-baseline="central" fill="#27500A">Admin de Obra</text>
+
+<text class="tn" x="60" y="289" text-anchor="middle" fill="#3B6D11">↑ ejemplos; roles RBAC configurables</text>
+
+<!-- ══ FLUJO APROBACIÓN (amber) — camino feliz + camino de rechazo con motivo ══ -->
+<!-- Camino feliz (sólido, ámbar): arriba del nodo -->
+<path d="M340 158 Q300 128 265 118" fill="none" stroke="#854F0B" stroke-width="1"/>
+<path d="M340 158 Q340 118 340 100" fill="none" stroke="#854F0B" stroke-width="1"/>
+<path d="M340 158 Q378 128 410 118" fill="none" stroke="#854F0B" stroke-width="1"/>
+
+<!-- Camino de rechazo (discontinuo, rojo): abajo del nodo -->
+<path d="M340 180 Q242 192 219 196" fill="none" stroke="#A93226" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M340 180 Q400 215 413 228" fill="none" stroke="#A93226" stroke-width="1" stroke-dasharray="4 3"/>
+
+<ellipse cx="340" cy="158" rx="60" ry="22" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text class="th" x="340" y="158" text-anchor="middle" dominant-baseline="central" fill="#633806">Flujo aprobación</text>
+
+<!-- Hojas aprobación (ámbar sólido) -->
+<rect x="140" y="107" width="122" height="26" rx="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="ts" x="201" y="120" text-anchor="middle" dominant-baseline="central" fill="#633806">Solicitud creada</text>
+
+<rect x="290" y="87" width="100" height="26" rx="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="ts" x="340" y="100" text-anchor="middle" dominant-baseline="central" fill="#633806">Aprob. Jefatura</text>
+
+<rect x="398" y="107" width="90" height="26" rx="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="ts" x="443" y="120" text-anchor="middle" dominant-baseline="central" fill="#633806">Aprob. RRHH</text>
+
+<!-- Hojas rechazo (rojo-ámbar, borde discontinuo) -->
+<rect x="153" y="183" width="132" height="30" rx="12" fill="#FDECEA" stroke="#A93226" stroke-width="0.8" stroke-dasharray="4 2"/>
+<text class="ts" x="219" y="193" text-anchor="middle" dominant-baseline="central" fill="#922B21">Rechazo Jefatura</text>
+<text class="tn" x="219" y="206" text-anchor="middle" dominant-baseline="central" fill="#922B21">con motivo (catálogo)</text>
+
+<rect x="351" y="228" width="124" height="30" rx="12" fill="#FDECEA" stroke="#A93226" stroke-width="0.8" stroke-dasharray="4 2"/>
+<text class="ts" x="413" y="238" text-anchor="middle" dominant-baseline="central" fill="#922B21">Rechazo RRHH</text>
+<text class="tn" x="413" y="251" text-anchor="middle" dominant-baseline="central" fill="#922B21">con motivo (catálogo)</text>
+
+<!-- ══ NODO CENTRAL ══ -->
+<ellipse cx="340" cy="310" rx="60" ry="40" fill="#E6F1FB" stroke="#185FA5" stroke-width="2"/>
+<text class="th" x="340" y="304" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Promaty</text>
+<text class="ts" x="340" y="320" text-anchor="middle" dominant-baseline="central" fill="#185FA5">Sist. RRHH</text>
+
+<!-- ══ TITLE BADGE ══ -->
+<rect x="40" y="22" width="184" height="34" rx="17" fill="#FAC775"/>
+<text x="132" y="39" text-anchor="middle" dominant-baseline="central" font-family="Calibri, Arial, sans-serif" font-size="13" font-weight="600" fill="#633806">Mapa mental</text>
+
+</svg>

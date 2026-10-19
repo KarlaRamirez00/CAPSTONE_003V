@@ -1,0 +1,10 @@
+REFERENCIAS EXTERNAS — PROMATY
+==============================
+
+Tablero Kanban y backlog del proyecto (Jira — acceso confirmado con el docente):
+https://promaty.atlassian.net/jira/software/projects/PCA/boards/2
+
+El espacio de trabajo está organizado en épicas, historias de usuario y subtareas, cada una
+asignada a la persona correspondiente, con estimación de esfuerzo y estado actualizado. En algunos casos
+se han registrado tareas de tipo bug para documentar y resolver inconvenientes detectados
+durante el desarrollo.
